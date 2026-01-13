@@ -1,0 +1,865 @@
+# Life Odyssey Blog - Full Content Index
+
+> Complete list of all blog posts for LLM indexing.
+
+## Site Information
+
+- URL: https://blog.zhenjia.org
+- Author: Zhenjia Zhou  
+- Total Posts: 171
+- Languages: Chinese, English, Japanese
+
+## All Posts
+
+
+### 在日本买手机和手机卡
+- URL: /posts/4321dd6d.html
+- Date: 2021-08-09
+- Tags: 留学,日本
+
+### 《文凭社会》
+- URL: /posts/8aa48f64.html
+- Date: 2021-01-19
+- Tags: 社会学
+
+### np.ma.mask
+- URL: /posts/39e89397.html
+- Date: 2020-11-10
+- Tags: Research,python
+
+### Annotated Bibliography 2020 11.24-11.29
+- URL: /posts/d1210079.html
+- Date: 2020-11-24
+- Tags: Ocean Color,Inherent Optical Properties,Fluorescence,Ocean Optics,Sub-pixel
+
+### Obsidian Daily Record System
+- URL: /posts/f36cc8b7.html
+- Date: 2022-07-23
+- Tags: 随便写写
+
+### 经验贴（三）申请流程及准备
+- URL: /posts/751458a5.html
+- Date: 2019-03-16
+- Tags: 留学,日本
+
+### 我对国内水色遥感的看法
+- URL: /posts/a5da9b38.html
+- Date: 2021-12-21
+- Tags: 随便写写
+
+### Agent Coding Experience and Future
+- URL: /posts/cb8288cd.html
+- Date: 2025-06-28
+
+### Bayes Theorem 1
+- URL: /posts/65240ce.html
+- Date: 2021-06-15
+
+### 服务器部署自动机器学习
+- URL: /posts/c23e0e6e.html
+- Date: 2019-06-05
+- Tags: 机器学习,Linux,服务器
+
+### ギターと孤独と蒼い惑星
+- URL: /posts/b25cb4c7.html
+- Date: 2023-01-08
+
+### 李连江老师谈在学术界谋生存
+- URL: /posts/3198f1de.html
+- Date: 2021-10-16
+- Tags: 总结
+
+### 没有大气校正和实测数据怎么搞水色
+- URL: /posts/6c4d8823.html
+- Date: 2022-06-14
+- Tags: Ocean Color,Hyperspectral
+
+### Agent coding experience and future
+- URL: /posts/6d590b83.html
+- Date: 2025-06-28
+
+### kotlin
+- URL: /posts/73362798.html
+- Date: 2022-07-22
+
+### Annotated Bibliography 2020 10.5-10.11
+- URL: /posts/3d8d27aa.html
+- Date: 2020-10-05
+- Tags: Remote Sensing,Book Reading,Oceanography
+
+### -
+- URL: /posts/5ea02cae.html
+- Date: 2021-06-11
+- Tags: Ocean Color,Harmful Algae,Research Article
+
+### CMDS Summer Course 
+- URL: /posts/a451b089.html
+- Date: 2021-06-21
+- Tags: Research,OLCI
+
+### 秋招&春招进程记录及经验总结
+- URL: /posts/2cb8508a.html
+- Date: 2022-07-01
+
+### Jupyter Lab
+- URL: /posts/c958af43.html
+- Date: 2021-05-12
+- Tags: python
+
+### Cousera机器学习基石第三周笔记 Machine Learning Foundation Week 3 Note in Cousera
+- URL: /posts/4df973c2.html
+- Date: 2019-04-26
+- Tags: 机器学习,Cousera,林轩田
+
+### Cousera机器学习基石第五周笔记-Machine-Learning-Foundation-Week-5-Note-in-Cousera
+- URL: /posts/fbd0b1b0.html
+- Date: 2019-04-06
+- Tags: 机器学习,Cousera,林轩田,学习笔记
+
+### 我到底喜欢什么呢
+- URL: /posts/5b03337d.html
+- Date: 2022-02-17
+- Tags: 随便写写
+
+### 人生实验室
+- URL: /posts/c17fab82.html
+- Date: 2021-02-24
+- Tags: 总结,随便写写,读书笔记
+
+### gdal
+- URL: /posts/f08904cf.html
+- Date: 2021-12-22
+- Tags: gdal,remote sensing,image processing
+
+### Windows环境下hexo博客搭建
+- URL: /posts/b1f5683b.html
+- Date: 2019-03-06
+- Tags: 博客搭建,入门
+
+### hyperspectral and phytoplankton
+- URL: /posts/ed08fed2.html
+- Date: 2021-02-21
+- Tags: Inherent Optical Properties,Ocean Color,Ocean Optics,Research Basis,Phytoplankton
+
+### 硕士一年
+- URL: /posts/577f7527.html
+- Date: 2020-08-10
+- Tags: 总结,随便写写
+
+### Hash
+- URL: /posts/718acd86.html
+- Date: 2022-03-10
+- Tags: Algorithm,LeetCode
+
+### MODIS水色数据处理教程
+- URL: /posts/ce08f3a2.html
+- Date: 2020-04-12
+- Tags: Research,Ocean Color,Oceanography,MODIS,大气校正
+
+### How to follow the research progress in your field?
+- URL: /posts/eaba55e.html
+- Date: 2020-07-08
+- Tags: 总结
+
+### particle backscattering
+- URL: /posts/78604782.html
+- Date: 2021-01-28
+- Tags: particle backscattering,Inversion,Ocean Color
+
+### GOCI-II data is available now
+- URL: /posts/61b56df3.html
+- Date: 2021-10-13
+- Tags: Research,Ocean Color,Oceanography
+
+### 在我成为井井有条的大人之前
+- URL: /posts/d040ebe8.html
+- Date: 2021-01-14
+- Tags: 总结,随便写写
+
+### 樱花和桂花
+- URL: /posts/6fbb792.html
+- Date: 2021-08-09
+- Tags: 总结,随便写写
+
+### Annotated Bibliography 2021 1.8-1.15
+- URL: /posts/ff413d6a.html
+- Date: 2021-01-08
+- Tags: Remote Sensing,Book Reading ,Ocean Optics
+
+### 二周目
+- URL: /posts/a41520c0.html
+- Date: 2023-08-21
+
+### 博客第三方插件和图片问题解决
+- URL: /posts/361a6d0d.html
+- Date: 2019-05-09
+- Tags: 博客搭建
+
+### pandas cheat sheet
+- URL: /posts/da4a7e8b.html
+- Date: 2020-09-24
+- Tags: Research,python
+
+### ThoughtWorks Super X（已OC
+- URL: /posts/47def00e.html
+- Date: 2022-03-18
+
+### CLI
+- URL: /posts/de5113b6.html
+- Date: 2022-04-07
+- Tags: git,bash
+
+### Correlation metrics
+- URL: /posts/e45539ea.html
+- Date: 2020-12-03
+- Tags: Statistics
+
+### 本科总结
+- URL: /posts/726664aa.html
+- Date: 2018-07-22
+- Tags: 总结,随便写写
+
+### 国内网络问题
+- URL: /posts/cfa4e4d8.html
+- Date: 2021-12-02
+- Tags: To Be Sorted
+
+### PyTorch基础
+- URL: /posts/fee729e7.html
+- Date: 2021-12-31
+- Tags: 机器学习,Inversion,Deep Learning,PyTorch,学习笔记
+
+### absorption measurement process
+- URL: /posts/49ca7bc7.html
+- Date: 2021-02-24
+- Tags: Experiment Protocols,Absorption Measurement,Ocean Color
+
+### IOP inversion
+- URL: /posts/f5ee8139.html
+- Date: 2019-11-27
+- Tags: paper reading,Research Basis,Ocean Optics
+
+### super X Roadmap
+- URL: /posts/4cc6684d.html
+- Date: 2022-04-07
+
+### 湖州某遥感公司
+- URL: /posts/c38ba18c.html
+- Date: 2021-07-02
+
+### It is OK to quit your Ph.D
+- URL: /posts/722bb233.html
+- Date: 2021-06-25
+- Tags: 随便写写
+
+### 未选择的路
+- URL: /posts/8abcc3ae.html
+- Date: 2021-06-15
+- Tags: 随便写写
+
+### book reading note 1
+- URL: /posts/2adc6f01.html
+- Date: 2019-11-04
+- Tags: Book Reading,Seminar,Oceanography
+
+### 一个神奇的Kotlin+SpringBoot启动bug
+- URL: /posts/8bf3d056.html
+- Date: 2022-12-03
+
+### AWOC/KJWOC Online 2020 Presentation
+- URL: /posts/7c5b3027.html
+- Date: 2021-01-13
+- Tags: Ocean Color,Data Fusion,International Conference,Presensentation
+
+### 日本語ノート(1)
+- URL: /posts/c07919ba.html
+- Date: 2022-02-13
+- Tags: 日本語 动词变形,日本語 形容词变形,日本語 数数,日本語
+
+### 清华苏州环境创新研究院面试经历
+- URL: /posts/bcb6c0dc.html
+- Date: 2021-06-18
+
+### How I Understand React as a Backend Developer
+- URL: /posts/789fd60c.html
+- Date: 2024-06-19
+- Tags: Software Engineering,Frontend Development
+
+### 北京某遥感公司
+- URL: /posts/3593fd75.html
+- Date: 2021-06-25
+
+### book-reading-note2
+- URL: /posts/44f3f721.html
+- Date: 2019-12-15
+- Tags: Book Reading,Seminar,Oceanography
+
+### Peer Pressure and Experience
+- URL: /posts/7f4ddd0d.html
+- Date: 2022-05-31
+- Tags: 随便写写
+
+### python step wise MLR
+- URL: /posts/f4626862.html
+- Date: 2021-06-01
+- Tags: Research,python
+
+### Annotated Bibliography 2020 9.28-10.4
+- URL: /posts/e4bb9d98.html
+- Date: 2020-09-28
+- Tags: Remote Sensing,Data Fusion
+
+### Write Thesis with Markdown
+- URL: /posts/4c54cf6c.html
+- Date: 2021-07-03
+- Tags: 随便写写
+
+### 我也成了精致的利己主义者
+- URL: /posts/b5654816.html
+- Date: 2022-01-31
+- Tags: 随便写写
+
+### book-reading-note3
+- URL: /posts/33f4c7b7.html
+- Date: 2020-04-02
+- Tags: Book Reading,Seminar,Oceanography
+
+### probabilistic method in machine learning
+- URL: /posts/62469dc9.html
+- Date: 2022-02-12
+- Tags: 机器学习,Inversion,Deep Learning,tensorflow,学习笔记
+
+### 速通Andrew Ng的Agentic AI课程：六小时的收获与思考
+- URL: /posts/6774acb2.html
+- Date: 2025-11-04
+- Tags: Agentic AI,Large Language Model,MCP,Tool Use,Reflection
+
+### sql
+- URL: /posts/dbd66adf.html
+- Date: 2022-06-04
+- Tags: Java,'Software Engineering'
+
+### Data fusion series note 1
+- URL: /posts/bd7e58b0.html
+- Date: 2020-07-15
+- Tags: paper reading,Research Basis,Data Fusion
+
+### Tennary plot
+- URL: /posts/2b01b12c.html
+- Date: 2021-03-11
+- Tags: Research,python
+
+### 2020
+- URL: /posts/94a46e7b.html
+- Date: 2020-12-12
+- Tags: 总结,随便写写
+
+### 我为什么喜欢做科研
+- URL: /posts/490b1360.html
+- Date: 2021-04-12
+- Tags: 随便写写
+
+### Obsidian
+- URL: /posts/b58cbef5.html
+- Date: 2021-06-19
+- Tags: 随便写写
+
+### FY4A数据处理
+- URL: /posts/d464ecc8.html
+- Date: 2021-12-13
+- Tags: 国产卫星数据处理,FY4A
+
+### SeaDAS OCSSW及大气矫正 2022年使用指北
+- URL: /posts/182a5f48.html
+- Date: 2022-02-11
+- Tags: Research,Ocean Color,Oceanography,MODIS,大气校正
+
+### 易混カタカナ
+- URL: /posts/b30efee3.html
+- Date: 2023-08-27
+- Tags: カタカナ,日本語
+
+### Mixture Density Network 3
+- URL: /posts/b6e8cccb.html
+- Date: 2022-02-22
+- Tags: 机器学习,Inversion,Deep Learning,学习笔记
+
+### javascript
+- URL: /posts/84ea90f7.html
+- Date: 2022-06-27
+- Tags: Javascript ,'Software Engineering'
+
+### 经验贴（二）日本留学制度介绍
+- URL: /posts/c7945378.html
+- Date: 2019-03-09
+- Tags: 留学,日本
+
+### 如何在国内拥有一个能够接受境外短信的手机号
+- URL: /posts/49e48baa.html
+- Date: 2024-07-20
+
+### Water Classification for Inversion/Retrieval
+- URL: /posts/696b3f33.html
+- Date: 2021-01-15
+- Tags: Inherent Optical Properties,Ocean Color,Ocean Optics,Research Basis
+
+### matplotlib xarray basemap h5py conflict
+- URL: /posts/5ce7c25.html
+- Date: 2021-12-06
+- Tags: python
+
+### 游戏策划面试总结
+- URL: /posts/b1322f4c.html
+- Date: 2021-08-16
+- Tags: 游戏策划,面试
+
+### Note in writing and presentation
+- URL: /posts/3da0aceb.html
+- Date: 2020-11-10
+- Tags: 总结,学术写作,学术发表
+
+### 狼总访谈
+- URL: /posts/6ff151e3.html
+- Date: 2016-05-18
+- Tags: 作业,警醒
+
+### 人生は最高の暇つぶし
+- URL: /posts/661d51c5.html
+- Date: 2022-01-21
+- Tags: 总结,随便写写
+
+### Scipy optimize
+- URL: /posts/7decea87.html
+- Date: 2021-01-01
+- Tags: Research,python
+
+### エージェントコーディングの経験と未来
+- URL: /posts/ad479b93.html
+- Date: 2025-06-28
+
+### MODIS OC data batch download
+- URL: /posts/8636bca2.html
+- Date: 2020-02-20
+- Tags: Research,Ocean Color,Oceanography
+
+### 游戏人生
+- URL: /posts/6fe52848.html
+- Date: 2021-03-21
+- Tags: 随便写写
+
+### matplotlib-subplot
+- URL: /posts/bf6c0df1.html
+- Date: 2020-12-16
+
+### 日本留学申请经验贴（一）之留学机构
+- URL: /posts/27dde70e.html
+- Date: 2019-03-08
+- Tags: 留学,日本
+
+### TDD
+- URL: /posts/715050f6.html
+- Date: 2022-07-18
+- Tags: 有业务价值
+
+### Basis for subplot2grid, ticker, enumerate, seaborn, plt/ax/fig
+- URL: /posts/bebb8f89.html
+- Date: 2020-08-20
+- Tags: Research,python
+
+### 自动机器学习代码详解
+- URL: /posts/4668cbbb.html
+- Date: 2019-05-16
+- Tags: Automatic Machine Learning,Fishery Forecasting,Undergraduate Thesis
+
+### A Ph.D is not enough
+- URL: /posts/13a77735.html
+- Date: 2021-02-27
+- Tags: 总结,随便写写,读书笔记
+
+### py6s
+- URL: /posts/514b9dac.html
+- Date: 2021-12-10
+- Tags: 大气校正,Remote Sensing
+
+### 清华大学《研究生学位论文的选题方法》讲座实录
+- URL: /posts/307feb93.html
+- Date: 2020-03-09
+- Tags: 总结
+
+### Idea debug/Gradle/Building tools
+- URL: /posts/984bc8b6.html
+- Date: 2022-05-12
+- Tags: Java ,'Software Engineering' 
+
+### Binary search
+- URL: /posts/fc1cc4f1.html
+- Date: 2022-03-10
+- Tags: Algorithm,LeetCode
+
+### ocean color data download script
+- URL: /posts/f157bdd2.html
+- Date: 2021-12-08
+- Tags: Data Download,Ocean Color,Remote sensing
+
+### My Core Agent Coding Workflow on 2025-12-8
+- URL: /posts/e7dbe30e.html
+- Date: 2025-12-08
+
+### 苏州某小公司实习生
+- URL: /posts/85253d2a.html
+- Date: 2021-06-20
+
+### Keras Tuner& Transfer Learning
+- URL: /posts/56104174.html
+- Date: 2022-02-24
+- Tags: 机器学习,Inversion,Deep Learning,tensorflow,学习笔记
+
+### Obsidian和hexoblog的多平台同步（synchronization for blog and obisidian）
+- URL: /posts/1d4ba56a.html
+- Date: 2021-10-07
+- Tags: 随便写写,博客搭建
+
+### ESA Oceanic Carbon From Space 2022
+- URL: /posts/31f16e8d.html
+- Date: 2022-02-14
+- Tags: ocean color,research,meeting
+
+### java
+- URL: /posts/7f1ae6d2.html
+- Date: 2022-04-11
+- Tags: Java,'Software Engineering' 
+
+### linux常用命令
+- URL: /posts/fe4ef317.html
+- Date: 2021-12-29
+
+### 游戏策划笔试整理
+- URL: /posts/3fc48bd7.html
+- Date: 2021-08-26
+- Tags: 游戏策划,笔试
+
+### Annotated Bibliography 2020 11.30-12.6
+- URL: /posts/adc0cb59.html
+- Date: 2020-11-30
+- Tags: Ocean Color,Inherent Optical Properties,Ocean Optics,Research Basis
+
+### Mixture Density Network(1)
+- URL: /posts/fbd0b1b1.html
+- Date: 2021-12-28
+- Tags: 机器学习,Inversion,Deep Learning,学习笔记
+
+### Atmospheric Correction by He
+- URL: /posts/23b76a18.html
+- Date: 2021-07-14
+- Tags: Research Basis,Ocean Optics
+
+### book reading note 4
+- URL: /posts/5ab69b8e.html
+- Date: 2020-07-19
+- Tags: Book Reading,Seminar,Oceanography
+
+### uv properties 1
+- URL: /posts/68e8e2be.html
+- Date: 2021-01-02
+- Tags: Inherent Optical Properties,Ocean Color,Ocean Optics,Research Basis
+
+### 破解 AWS Inspector 与 ECR 的隐藏关联：解决 Terraform 管理的循环困境
+- URL: /posts/ca51402d.html
+- Date: 2025-03-13
+- Tags: AWS,DevOps,Software Engineering
+
+### Clean Code, Refactoring and Test-Driven Development
+- URL: /posts/5ffd7c75.html
+- Date: 2024-06-15
+- Tags: Software Engineering,Software Design and Architecture
+
+### 日本留学申请（四）：经管类申请
+- URL: /posts/40e83800.html
+- Date: 2019-07-03
+- Tags: 留学,日本
+
+### 北京某遥感公司2
+- URL: /posts/3a8fa843.html
+- Date: 2021-06-26
+
+### 某公司从零自学过笔试
+- URL: /posts/bc9381.html
+- Date: 2021-08-11
+- Tags: 游戏策划,笔试
+
+### Cousera机器学习基石第四周笔记-Machine-Learning-Foundation-Week-4-Note-in-Cousera
+- URL: /posts/c7f63b06.html
+- Date: 2019-04-02
+- Tags: 机器学习,Cousera,林轩田
+
+### Mixture Density Network(2)
+- URL: /posts/8bb8e4ec.html
+- Date: 2022-02-10
+- Tags: 机器学习,Inversion,Deep Learning,学习笔记
+
+### My Grind With Depression
+- URL: /posts/4dfc84d2.html
+- Date: 2021-03-09
+- Tags: 随便写写
+
+### Passion & Motivation
+- URL: /posts/49d62bf8.html
+- Date: 2022-04-20
+- Tags: 随便写写
+
+### 《乡土中国》摘录与笔记
+- URL: /posts/f71631a2.html
+- Date: 2021-01-13
+- Tags: 社会学
+
+### Annotated Bibliography 2020 11.17-11.20
+- URL: /posts/179aa5a3.html
+- Date: 2020-11-17
+- Tags: Inherent Optical Properties,Ocean Color,Ocean Optics,Research Basis
+
+### 博客更换主题、页面设置及问题解决
+- URL: /posts/aaf90768.html
+- Date: 2019-03-07
+- Tags: 博客搭建,进阶
+
+### Cousera机器学习基石第二周笔记 Machine Learning Foundation Week 2 Note in Cousera
+- URL: /posts/2c9001a2.html
+- Date: 2019-04-08
+- Tags: 机器学习,Cousera,林轩田
+
+### Robust fit
+- URL: /posts/7ff46c3b.html
+- Date: 2021-05-13
+- Tags: Research,python
+
+### Publishable plot using python&R
+- URL: /posts/cd046c9b.html
+- Date: 2020-12-01
+- Tags: Research,python,R
+
+### Cousera机器学习基石第六周笔记 Machine Learning Foundation Week 6 Note in Cousera
+- URL: /posts/da4d42a2.html
+- Date: 2019-05-12
+- Tags: 机器学习,Cousera,林轩田
+
+### Leetcode面试高频题分类刷题总结
+- URL: /posts/fc1cc4fb.html
+- Date: 2022-03-10
+- Tags: Algorithm,LeetCode
+
+### two pointers
+- URL: /posts/8f8ed91a.html
+- Date: 2022-03-11
+- Tags: Algorithm,LeetCode
+
+### Cousera机器学习基石第一周笔记 Machine Learning Foundation Week 1 Note in Cousera
+- URL: /posts/bc80cb40.html
+- Date: 2019-04-01
+- Tags: 机器学习,Cousera,林轩田
+
+### Tree Family in Machine learning and XGBoost
+- URL: /posts/760defdb.html
+- Date: 2021-12-23
+- Tags: 机器学习,XGBoost,Auto-sklearn
+
+### 君の名は希望
+- URL: /posts/8c33e681.html
+- Date: 2024-02-09
+- Tags: 随便写写
+
+### 树莓派nas-nextcloudpi
+- URL: /posts/d7f3beca.html
+- Date: 2022-07-02
+- Tags: 树莓派,NAS,摄影处理
+
+### retrieving Scdm using uv propoteis
+- URL: /posts/750388a9.html
+- Date: 2021-01-26
+- Tags: Remote Sensing,CDOM,Inversion,Ocean Color
+
+### 怎么写研究计划书
+- URL: /posts/f43786f7.html
+- Date: 2021-05-23
+- Tags: 留学,日本
+
+### kriging
+- URL: /posts/f4af350.html
+- Date: 2020-10-22
+- Tags: Kriging model,Spatial staticstics
+
+### Chla retrieval
+- URL: /posts/a31ba57b.html
+- Date: 2021-03-12
+- Tags: Ocean Color,Chla Algorithm
+
+### tensorflow基础
+- URL: /posts/fd169b9d.html
+- Date: 2022-01-04
+- Tags: 机器学习,Inversion,Deep Learning,tensorflow,学习笔记
+
+### The optics of backscattering
+- URL: /posts/99c2b0bb.html
+- Date: 2021-05-05
+- Tags: particle backscattering,Inversion,Ocean Color,Ocean Optics
+
+### pandas基础
+- URL: /posts/50bcdc38.html
+- Date: 2020-09-09
+- Tags: Research,python
+
+### 在日本买笔记本
+- URL: /posts/6153578.html
+- Date: 2021-08-03
+- Tags: 留学,日本
+
+### Ocean color Environment on Server
+- URL: /posts/eff06e8d.html
+- Date: 2021-12-06
+- Tags: Ocean Color,Linux
+
+### Agentic AI Lecture Notes
+- URL: /posts/72cf705.html
+- Date: 2025-11-02
+- Tags: Agentic AI,Large Language Model,Software Engineering
+
+### lfs
+- URL: /posts/442707f1.html
+- Date: 2021-11-29
+- Tags: python,git
+
+### Tutorial for handling MODIS ocean color data
+- URL: /posts/ef746e52.html
+- Date: 2020-04-12
+- Tags: Research,Ocean Color,Oceanography
+
+### Evaluating ChatGPTo1-preview, and Claude 3.5 sonnet
+- URL: /posts/aec625cb.html
+- Date: 2024-09-14
+
+### assert
+- URL: /posts/b1ef4fab.html
+- Date: 2020-08-18
+- Tags: python
+
+### recursive
+- URL: /posts/b8c59cfd.html
+- Date: 2022-03-11
+- Tags: Algorithm,LeetCode
+
+### 广义加性模型
+- URL: /posts/17683e80.html
+- Date: 2017-11-20
+- Tags: 广义加性模型,统计分析,R
+
+### 新的春天
+- URL: /posts/6ef15720.html
+- Date: 2024-03-03
+
+### SGLI 官方工具
+- URL: /posts/46164445.html
+- Date: 2021-08-01
+- Tags: Research,Ocean Color,Oceanography
+
+### Some Usefull python function
+- URL: /posts/d39dff82.html
+- Date: 2020-08-07
+- Tags: Research,python
+
+### cartopy
+- URL: /posts/c6b8edee.html
+- Date: 2020-08-01
+- Tags: Research,python
+
+### WSL+anaconda+jupyter
+- URL: /posts/60b81fb7.html
+- Date: 2021-12-04
+- Tags: 机器学习,Linux
+
+### _ in python
+- URL: /posts/20963e2f.html
+- Date: 2022-01-28
+- Tags: python
+
+### html&css
+- URL: /posts/947599bf.html
+- Date: 2022-06-13
+- Tags: Java,'Software Engineering' 
+
+### python绘图基础
+- URL: /posts/720e5580.html
+- Date: 2020-08-21
+- Tags: Research,python
+
+### Agentic AI 学習記録
+- URL: /posts/34c938fb.html
+- Date: 2025-11-02
+- Tags: Agentic AI,Large Language Model,Software Engineering
+
+### note for ocean optic web book：Liaght and Radiometry
+- URL: /posts/80897339.html
+- Date: 2019-11-20
+- Tags: bookreading,Research Basis,Ocean Optics
+
+### 上班原来真的好累啊
+- URL: /posts/8cacdaad.html
+- Date: 2022-09-20
+
+### Carbon flux by Bai
+- URL: /posts/149c7e00.html
+- Date: 2021-07-15
+- Tags: Research Basis,Ocean Color
+
+### Greedy
+- URL: /posts/4a214119.html
+- Date: 2022-03-11
+- Tags: Algorithm,LeetCode
+
+### JpGU-AGU Joint Meeting 2020 poster
+- URL: /posts/26d5d570.html
+- Date: 2020-09-24
+- Tags: Ocean Color,Harmful Algae,International Conference,Poster
+
+### 2021年终总结
+- URL: /posts/a23e5172.html
+- Date: 2021-12-29
+- Tags: 总结,随便写写
+
+### Material for ocean color
+- URL: /posts/3aa0ed1a.html
+- Date: 2020-02-28
+- Tags: Research,Ocean Color,Oceanography
+
+### 文献管理
+- URL: /posts/4ce7830b.html
+- Date: 2021-03-20
+- Tags: 随便写写
+
+### Agentic AI Lecture Note
+- URL: /posts/4e596c51.html
+- Date: 2025-11-02
+- Tags: Agentic AI,Large Language Model,Software Engineering
+
+
+## Content Categories
+
+Posts are organized by tags including:
+- Algorithm
+- Machine Learning
+- LeetCode
+- AWS
+- Java
+- Python
+- Cloud Computing
+- Career Development
+
+## How to Access
+
+- Direct post links: https://blog.zhenjia.org/posts/{abbrlink}.html
+- Search functionality: https://blog.zhenjia.org/search/
+- RSS Feed: https://blog.zhenjia.org/rss.xml
+- Sitemap: https://blog.zhenjia.org/sitemap-index.xml
+
+## License
+
+© 2018-2025 Zhenjia Zhou. All rights reserved.
+

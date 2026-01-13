@@ -1,0 +1,43 @@
+# Life Odyssey Blog
+
+> A personal tech blog by Zhenjia Zhou covering algorithms, machine learning, software development, and cloud architecture.
+
+## Site Information
+
+- URL: https://blog.zhenjia.org
+- Author: Zhenjia Zhou
+- Languages: Chinese (primary), English, Japanese
+- Theme: Retypeset (Astro-based static site)
+
+## Content Categories
+
+- **Algorithms**: Binary search, dynamic programming, graph algorithms, LeetCode solutions
+- **Machine Learning**: Neural networks, Bayesian methods, deep learning
+- **Cloud & DevOps**: AWS, Kubernetes, CI/CD, infrastructure as code
+- **Software Development**: Java, Python, TypeScript, system design
+- **Career**: Job hunting, interview preparation, professional growth
+
+## Key URLs
+
+- Posts: /posts/{abbrlink}.html
+- Tags: /tags/
+- Search: /search/
+- About: /about/
+- RSS Feed: /rss.xml
+- Atom Feed: /atom.xml
+- Sitemap: /sitemap-index.xml
+
+## API Endpoints
+
+- Search Index: /pagefind/pagefind-entry.json
+- Full-text search available at /search/
+
+## Language URLs
+
+- Chinese (default): /
+- English: /en/
+- Japanese: /ja/
+
+## License
+
+Content © 2018-2025 Zhenjia Zhou. All rights reserved.
