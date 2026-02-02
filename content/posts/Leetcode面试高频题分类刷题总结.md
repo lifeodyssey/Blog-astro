@@ -1,5 +1,6 @@
 ---
 title: Leetcode面试高频题分类刷题总结
+slug: leetcode-interview-summary
 tags:
   - Algorithm
   - LeetCode

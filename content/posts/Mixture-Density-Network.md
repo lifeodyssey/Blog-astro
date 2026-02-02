@@ -1,5 +1,6 @@
 ---
 title: Mixture Density Network(1)
+slug: mixture-density-network
 tags:
   - 机器学习
   - Inversion
@@ -7,7 +8,7 @@ tags:
 categories:
   - 学习笔记
 mathjax: true
-abbrlink: fbd0b1b1
+abbrlink: fbd0b1b0
 date: 2021-12-28 13:23:00
 copyright: true
 ---
