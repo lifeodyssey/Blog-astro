@@ -1,5 +1,5 @@
 ---
-title: CMDS Summer Course 
+title: CMDS Summer Course
 tags:
   - Research
   - OLCI

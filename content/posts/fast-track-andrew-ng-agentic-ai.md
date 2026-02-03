@@ -10,6 +10,7 @@ categories: Work Note
 copyright: true
 abbrlink: 6774acb2
 date: 2025-11-04 10:00:00
+draft: true
 ---
 
 TLDR

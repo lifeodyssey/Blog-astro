@@ -1,5 +1,6 @@
 ---
 title: Idea debug/Gradle/Building tools
+draft: true
 date: 2022-05-12 23:12:22 
 tags:
   - Java 

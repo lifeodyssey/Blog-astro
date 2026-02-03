@@ -1,5 +1,6 @@
 ---
 title: ThoughtWorks Super X（已OC
+draft: true
 tags: 日常记录
 categories: 成为社畜的路上
 abbrlink: 47def00e

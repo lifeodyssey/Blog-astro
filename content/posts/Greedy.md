@@ -1,5 +1,6 @@
 ---
 title: Greedy
+draft: true
 tags:
   - Algorithm
   - LeetCode

@@ -1,5 +1,6 @@
 ---
 title: note for ocean optic web book：Liaght and Radiometry
+draft: true
 copyright: true
 tags:
   - bookreading

@@ -1,5 +1,7 @@
 ---
 title: Agentic AI Lecture Note
+lang: zh
+slug: agentic-ai-note
 tags:
   - Agentic AI
   - Large Language Model

@@ -1,5 +1,6 @@
 ---
 title: Tutorial for handling MODIS ocean color data
+draft: true
 copyright: true
 tags:
   - Research

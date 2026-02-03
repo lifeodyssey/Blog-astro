@@ -1,5 +1,6 @@
 ---
 title: A Ph.D is not enough
+draft: true
 tags:
   - 总结
   - 随便写写

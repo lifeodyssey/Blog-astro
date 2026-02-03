@@ -1,5 +1,6 @@
 ---
 title: Obsidian和hexoblog的多平台同步（synchronization for blog and obisidian）
+draft: true
 tags:
   - 随便写写
   - 博客搭建
