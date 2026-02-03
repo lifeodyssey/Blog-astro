@@ -1,6 +1,7 @@
 ---
 title: Example Post Title
 date: 2024-01-01 12:00:00
+draft: true
 tags:
   - Example
   - Tutorial
