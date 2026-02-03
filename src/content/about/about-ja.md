@@ -6,7 +6,7 @@ lang: ja
 
 ブログをご覧いただきありがとうございます。
 
-私は海洋リモートセンシングの分野で働いています。
+私はSoftware Engineerで働いています。
 
 お気軽にご連絡ください：zhenjiazhou0127@outlook.com
 
