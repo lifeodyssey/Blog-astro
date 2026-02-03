@@ -2,7 +2,7 @@
 
 Thank you for visiting my blog.
 
-I’m working with ocean color remote sensing. 
+I’m working as a software developer.  
 
 Please feel free to contact me: zhenjiazhou0127@outlook.com
 
