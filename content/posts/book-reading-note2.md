@@ -9,8 +9,8 @@ categories: 学习笔记
 mathjax: true
 abbrlink: 44f3f721
 date: 2019-12-15 18:43:02
+lang: en
 ---
-
 Chapter 7.1-7.2.4 of book  《Dynamics of Marine Ecosystems: Biological-Physical Interactions in the Oceans》
 <!-- more -->
 

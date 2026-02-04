@@ -9,8 +9,8 @@ mathjax: true
 abbrlink: 3d8d27aa
 date: 2020-10-05 21:21:11
 copyright:
+lang: en
 ---
-
 Annotated Bibliography 2020 10.5-10.11
 
 Next Monday I will do a book reading presentaion. So this post will mainly include the book reading and some other oceanography quick look.

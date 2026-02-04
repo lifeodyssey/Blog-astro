@@ -9,8 +9,8 @@ mathjax: true
 abbrlink: 49ca7bc7
 copyright: true
 date: 2021-02-24 10:44:21
+lang: en
 ---
-
 This is a summary of how to process absorption measurement data.
 
 The measurement is basically based on the QFT-T mode. More details could be found at [IOCCG protocols volume 1]( https://ioccg.org/what-we-do/ioccg-publications/ocean-optics-protocols-satellite-ocean-colour-sensor-validation/ ) 

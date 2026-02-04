@@ -10,8 +10,8 @@ mathjax: true
 abbrlink: 750388a9
 date: 2021-01-26 19:22:12
 copyright:
+lang: en
 ---
-
 Spectral slopes of the absorption coefficient of colored dissolved and detrital material inverted from UV-visible remote sensing reflectance(Wei et al., 2016)
 
 A new algorithm to retrieve chromophoric dissolved organic matter (CDOM) absorption spectra in the UV from ocean color(Cao and Miller, 2015)

@@ -9,6 +9,7 @@ mathjax: true
 abbrlink: bc80cb40
 date: 2019-04-01 14:51:44
 copyright: true
+lang: en
 ---
 An introduction for Machine learning
 

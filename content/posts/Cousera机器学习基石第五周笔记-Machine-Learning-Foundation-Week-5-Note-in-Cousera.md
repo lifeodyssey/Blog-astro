@@ -10,6 +10,7 @@ mathjax: true
 abbrlink: fbd0b1b0
 date: 2019-04-06 13:23:00
 copyright: true
+lang: en
 ---
 **Traning versus Testing**
 

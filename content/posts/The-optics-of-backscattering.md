@@ -10,8 +10,8 @@ mathjax: true
 abbrlink: 99c2b0bb
 date: 2021-05-05 16:13:17
 copyright:
+lang: en
 ---
-
 I need to understand the optics of backscattering to understand the strange 'bbp' calculted from Rrs and and.
 
 Material mainly from IOCCG summer lecture 2018 and ocean optics web book.

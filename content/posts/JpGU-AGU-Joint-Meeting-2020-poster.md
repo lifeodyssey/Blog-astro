@@ -10,8 +10,8 @@ mathjax: true
 abbrlink: 26d5d570
 date: 2020-09-24 16:26:16
 copyright:
+lang: en
 ---
-
 This year I attended the JpGU-AGU Joint Meeting 2020 and made a poster presentation.
 
 https://confit.atlas.jp/guide/event/jpgu2020/subject/HTT15-P07/detail

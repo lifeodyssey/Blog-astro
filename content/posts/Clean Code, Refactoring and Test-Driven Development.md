@@ -8,8 +8,8 @@ abbrlink: 5ffd7c75
 date: 2024-06-15 22:34:45
 mathjax:
 copyright:
+lang: en
 ---
-
 I would like to summarize some of the basic principles and habits of coding that I learned while working at ThoughtWorks. These are some 'metaphysical' guidelines, and later I plan to use Kotlin to write some design patterns to practice the 'physical' aspects.
 
 In a context where GPT can help us write most of the code, these principles become even more important. 

@@ -8,8 +8,8 @@ tags:
 categories: 学习笔记
 mathjax:
 copyright:
+lang: en
 ---
-
 白老师在第二届水色遥感理论班的碳循环课程，草草记了一点
 
 <!-- more -->

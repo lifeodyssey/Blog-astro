@@ -9,8 +9,8 @@ mathjax: true
 abbrlink: 4df973c2
 date: 2019-04-26 15:08:38
 copyright: true
+lang: en
 ---
-
 **Types of Learning**
 
 <!-- more -->

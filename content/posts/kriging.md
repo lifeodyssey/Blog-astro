@@ -8,8 +8,8 @@ mathjax: true
 abbrlink: f4af350
 date: 2020-10-22 10:53:33
 copyright:
+lang: en
 ---
-
 Ordinary Kriging
 
 Poisson Kriging-Area to Area

@@ -9,8 +9,8 @@ categories: Annotated Bibliography
 mathjax: true
 abbrlink: ff413d6a
 copyright:
+lang: en
 ---
-
 Book Reading Ch. 3.9-3.10 of book <Emery, William, and Adriano Camps. *Introduction to satellite remote sensing: atmosphere, ocean, land and cryosphere applications*. Elsevier, 2017.>
 
 Effects of forward models on the semi-analytical retrieval of inherent optical properties from remote sensing reflectance

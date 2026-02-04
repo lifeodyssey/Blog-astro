@@ -10,8 +10,8 @@ mathjax: true
 abbrlink: 68e8e2be
 date: 2021-01-02 13:21:56
 copyright:
+lang: en
 ---
-
 主要是从15年开始的四篇论文
 
 An ultraviolet to visible scheme to estimate chromophoric dissolved organic matter absorption in a Case-2 water from remote sensing reflectance

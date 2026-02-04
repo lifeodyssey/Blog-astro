@@ -12,8 +12,8 @@ abbrlink: ed08fed2
 date: 2021-02-21 16:25:21
 copyright:
 password: mysecret
+lang: en
 ---
-
 This is an Annotated Bibliography for the doctor proposal.
 
 Hyperspectral Remote Sensing of Phytoplankton Species Composition Based on Transfer Learning

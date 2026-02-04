@@ -8,8 +8,8 @@ abbrlink: 789fd60c
 date: 2024-06-19 22:34:45
 mathjax:
 copyright:
+lang: en
 ---
-
 In the past, I found it quite hard to understand React code as a backend developer. But recently, I gained some insights from my daily development work, and I want to share them with you.
 
 

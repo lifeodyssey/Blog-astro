@@ -10,8 +10,8 @@ typora-root-url: ..
 abbrlink: c7f63b06
 date: 2019-04-02 15:08:38
 copyright: true
+lang: en
 ---
-
 **Feasibility of Learning**
 
 <!-- more -->

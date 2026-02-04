@@ -9,8 +9,8 @@ categories: 学习笔记
 mathjax: true
 abbrlink: 5ab69b8e
 date: 2020-07-19 20:36:32
+lang: en
 ---
-
 Chapter 10.1.-10.2 of book  《Dynamics of Marine Ecosystems: Biological-Physical Interactions in the Oceans》
 <!-- more -->
 

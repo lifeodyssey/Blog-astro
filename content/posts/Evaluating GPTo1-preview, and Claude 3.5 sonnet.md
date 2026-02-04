@@ -6,8 +6,8 @@ abbrlink: aec625cb
 copyright: true
 date: 2024-09-14 19:22:56
 mathjax:
+lang: en
 ---
-
 Let's compare in two way, Algorithm and system design.
 
 TLDR: ChatGP o1-preview, excels in both algorithmic and system design. Therefore, I will cancel my Claude 3.5 Sonnet subscription and continue using ChatGPT.

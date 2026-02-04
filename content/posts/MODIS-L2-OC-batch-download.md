@@ -9,8 +9,8 @@ categories: 学习笔记
 mathjax: true
 abbrlink: 8636bca2
 date: 2020-02-20 14:05:08
+lang: en
 ---
-
 This blog introduce a MODIS(also suitable for other available satellites) Ocean Color data batch download method without wget(since it doesn’t work on my laptop).
 
 <!-- more -->

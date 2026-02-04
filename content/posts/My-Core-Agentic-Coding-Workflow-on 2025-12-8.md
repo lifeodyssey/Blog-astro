@@ -6,6 +6,7 @@ abbrlink: e7dbe30e
 copyright: true
 date: 2025-12-08 00:00:00
 mathjax:
+lang: en
 ---
 **Disclaimer**: I have only been using this approach for my personal projects and have not tried it at work yet. I am not sure if it would work well for a team, but it has been working well for me so far.
 

@@ -9,9 +9,8 @@ mathjax: true
 abbrlink: 2c9001a2
 copyright: true
 date: 2019-04-08 15:08:38
+lang: en
 ---
-
-
 Learning to Answer Yes/No
 <!-- more -->
 

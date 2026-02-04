@@ -12,8 +12,8 @@ tags:
 categories: Annotated Bibliography
 mathjax: true
 copyright:
+lang: en
 ---
-
 最近没有一点科研的状态
 
 鸽了好多博客没写，文章没看

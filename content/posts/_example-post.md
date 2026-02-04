@@ -11,8 +11,8 @@ slug: example-post
 abbrlink: ''
 mathjax: false
 mermaid: false
+lang: en
 ---
-
 This is an example post demonstrating the expected frontmatter structure.
 
 <!-- more -->

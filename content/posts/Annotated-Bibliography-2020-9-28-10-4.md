@@ -8,8 +8,8 @@ mathjax: true
 abbrlink: e4bb9d98
 date: 2020-09-28 12:42:16
 copyright:
+lang: en
 ---
-
 Annotated Bibliography 2020 9.28-10.4
 
 I will try to read three or four papers every week and update my annotation.

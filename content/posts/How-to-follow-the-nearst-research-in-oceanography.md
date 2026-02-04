@@ -7,8 +7,8 @@ categories: 学习笔记
 mathjax: true
 abbrlink: eaba55e
 date: 2020-07-08 22:46:44
+lang: en
 ---
-
 This is the note of my own experiences.
 
 As summarized in my former blog, the new result always from pre-print website, social media, conference. Here I will summary some source in oceanography, especially ocean color,  and also give some methods for following new articles.

@@ -9,8 +9,8 @@ categories: 学习笔记
 mathjax: true
 abbrlink: 33f4c7b7
 date: 2020-04-02 15:08:38
+lang: en
 ---
-
 Chapter 8.3.2.-8.4.4 of book  《Dynamics of Marine Ecosystems: Biological-Physical Interactions in the Oceans》
 <!-- more -->
 

@@ -10,8 +10,8 @@ mathjax: true
 abbrlink: 7c5b3027
 date: 2021-01-13 17:42:15
 copyright:
+lang: en
 ---
-
 Laster year I attended The $\rm 8^{th} Asian/17^{th}$ Korea-Japan Workshop on Ocean Color and gave a presentation.
 
 <!-- more -->
