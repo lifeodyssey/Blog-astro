@@ -23,7 +23,7 @@ This article doesn't focus on definitions. Instead, I want to start from **engin
 <!-- more -->
 ![Context Window Management Strategy Overview: Multi-Agent (divide and conquer), Agentic Workflow (intelligent orchestration), RAG (on-demand retrieval), and Skills (lazy loading) - four approaches revolving around the limited Context Window](https://raw.githubusercontent.com/lifeodyssey/Figurebed/master/202601200907138.png)
 
-# 1. The Root of Everything: Context is Expensive
+## 1. The Root of Everything: Context is Expensive
 
 Everyone knows that Function Calling (Tool Use) is the foundation of Agents. But what many people don't realize is that **letting the model "know" what tools it has is itself extremely expensive**.
 
@@ -117,7 +117,7 @@ This is **Context Pollution**. This leads to two fatal consequences:
 1. **Expensive**: Every conversation is burning money.
 2. **Dumb**: "Lost in the Middle" phenomenon. Too many tool definitions, the model doesn't know which to choose, or hallucinates.
 
-# 2. MCP: Solved Connection Standards, Not Pollution
+## 2. MCP: Solved Connection Standards, Not Pollution
 
 Model Context Protocol (MCP) is great—it standardizes the **connection method** for tools.
 
@@ -130,7 +130,7 @@ Boom! Your Context exploded.
 
 So, we need **divide and conquer**.
 
-# 3. Multi-Agent Solutions: Solving Context Pollution
+## 3. Multi-Agent Solutions: Solving Context Pollution
 
 Since one Agent can't hold 100 tools, why not split them up?
 
@@ -150,7 +150,7 @@ In the context of Agent frameworks, this is called **Sub-agents**. The differenc
 
 **Core value**: Sub-agent always has the cleanest Context. It doesn't need to know about the previous 100 rounds of conversation, it only needs to know "now we need to commit this file".
 
-# 4. Agentic Workflow: Intelligent Orchestration
+## 4. Agentic Workflow: Intelligent Orchestration
 
 With so many Agents, who directs them?
 
@@ -176,7 +176,7 @@ This means:
 
 This is why it's called **Agentic** — every step has Agent's intelligence involved, not rigid `if-else`.
 
-# 5. RAG: When You Have Too Many Agents and MCPs to Fit
+## 5. RAG: When You Have Too Many Agents and MCPs to Fit
 
 The previous problem was "too many tools", Multi-Agent solved it by splitting. But what if your system is complex enough?
 
@@ -219,7 +219,7 @@ If you stuff all specs into context, it would explode long ago.
 
 **Solution is also RAG**: When the agent needs to implement "user login" functionality, the retrieval system automatically loads `authentication.md` and `api-endpoints.md`, other specs never enter context.
 
-# 6. The "Still Too Much" Problem -> Skills & Plugins
+## 6. The "Still Too Much" Problem -> Skills & Plugins
 
 Okay, now we have:
 * **Multi-Agent**: Isolated environments, divide and conquer tools.
@@ -278,7 +278,7 @@ Skills are loaded into the **current conversation**, they can see all context. W
 
 This is where **Skills** come in.
 
-# 7. Skills & Plugins: Lazy Loading "Know-How"
+## 7. Skills & Plugins: Lazy Loading "Know-How"
 
 What is the essence of a Skill?
 
@@ -454,7 +454,7 @@ But if split into 3 skills, you need to manually chain them, losing the convenie
 - Use scripts to fix reusable logic
 - Or use Plugins to package multiple related skills, implementing workflow chaining through configuration
 
-# 8. One Diagram Summary: The Art of Context Management
+## 8. One Diagram Summary: The Art of Context Management
 
 Let's put all concepts in one table, you'll find they're all fighting with **Context Window**.
 
@@ -465,7 +465,7 @@ Let's put all concepts in one table, you'll find they're all fighting with **Con
 | **RAG** | Too many Agents/MCPs/Specs, can't fit | **Retrieval** |
 | **Skills** | SOP too long + uncontrollable runtime code quality | **Lazy Loading** |
 
-# 9. Practice: How to Build This (How to Build)
+## 9. Practice: How to Build This (How to Build)
 
 After so much theory, how to write?
 
@@ -658,7 +658,7 @@ According to community statistics, **739+ Skills** have been deployed, covering 
 
 **Skills are encapsulating "thought processes" into modules that can be dynamically plugged in at runtime.**
 
-# Conclusion: It's All About Context Management
+## Conclusion: It's All About Context Management
 
 Looking back at the full article, you'll find all these concepts are solving the same problem: **Context Window is limited**.
 

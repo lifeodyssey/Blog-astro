@@ -23,7 +23,7 @@ mathjax:
 <!-- more -->
 ![Context Window 管理戦略の全体像：Multi-Agent（分割統治）、Agentic Workflow（インテリジェント・オーケストレーション）、RAG（オンデマンド検索）、Skills（遅延読み込み）の4つのアプローチが限られた Context Window を中心に展開](https://raw.githubusercontent.com/lifeodyssey/Figurebed/master/202601200907138.png)
 
-# 1. すべての根源：Context はコストが高い
+## 1. すべての根源：Context はコストが高い
 
 誰もが Function Calling (Tool Use) が Agent の基礎であることを知っています。しかし、多くの人が気づいていないのは、**モデルに「どんなツールを持っているか」を知らせること自体が極めてコストが高い**ということです。
 
@@ -117,7 +117,7 @@ for block in response.content:
 1. **高コスト**：毎回の会話がお金を燃やしている。
 2. **愚鈍化**："Lost in the Middle" 現象。ツール定義が多すぎて、モデルがどれを選ぶべきかわからなくなったり、幻覚を起こしたりする。
 
-# 2. MCP：接続標準を解決したが、汚染は解決していない
+## 2. MCP：接続標準を解決したが、汚染は解決していない
 
 Model Context Protocol (MCP) は素晴らしいです—ツールの**接続方法**を標準化しました。
 
@@ -130,7 +130,7 @@ Model Context Protocol (MCP) は素晴らしいです—ツールの**接続方�
 
 そこで、**分割統治**が必要です。
 
-# 3. Multi-Agent Solutions：Context 汚染の解決
+## 3. Multi-Agent Solutions：Context 汚染の解決
 
 1つの Agent が 100 個のツールを収容できないなら、分割すればいいのでは？
 
@@ -150,7 +150,7 @@ Agent フレームワークの文脈では、これは **Sub-agents** と呼ば�
 
 **核心価値**：Sub-agent は常に最もクリーンな Context を持っています。前の 100 ラウンドの会話を知る必要はなく、「今このファイルをコミットする必要がある」ことだけを知っていればいいのです。
 
-# 4. Agentic Workflow：インテリジェント・オーケストレーション
+## 4. Agentic Workflow：インテリジェント・オーケストレーション
 
 これほど多くの Agents がいる場合、誰が指揮するのでしょうか？
 
@@ -176,7 +176,7 @@ graph LR
 
 これが **Agentic** と呼ばれる理由です — すべてのステップに Agent のインテリジェンスが関与し、硬直した `if-else` ではありません。
 
-# 5. RAG：Agent と MCP が多すぎて収まらない時
+## 5. RAG：Agent と MCP が多すぎて収まらない時
 
 以前の問題は「ツールが多すぎる」でしたが、Multi-Agent が分割で解決しました。しかし、システムが十分に複雑な場合は？
 
@@ -219,7 +219,7 @@ graph TB
 
 **解決策も RAG**：agent が「ユーザーログイン」機能を実装する必要がある時、検索システムは自動的に `authentication.md` と `api-endpoints.md` をロードし、他の spec は context に入りません。
 
-# 6. "Still Too Much" 問題 -> Skills & Plugins
+## 6. "Still Too Much" 問題 -> Skills & Plugins
 
 さて、今私たちは持っています：
 * **Multi-Agent**：隔離環境、分割統治ツール。
@@ -278,7 +278,7 @@ Skill は**現在の会話**にロードされ、すべての context を見る�
 
 これが **Skills** が登場する場所です。
 
-# 7. Skills & Plugins：Know-How の遅延読み込み
+## 7. Skills & Plugins：Know-How の遅延読み込み
 
 Skill の本質は何でしょうか？
 
@@ -454,7 +454,7 @@ echo "✅ Hook configuration is valid"  # <- この行だけが context に入�
 - scripts を使用して再利用可能なロジックを固定化
 - または Plugin を使用して関連する複数の skills をパッケージ化し、設定を通じてワークフローチェーンを実装
 
-# 8. 1つの図でまとめ：Context 管理の芸術
+## 8. 1つの図でまとめ：Context 管理の芸術
 
 すべての概念を1つの表にまとめると、それらはすべて **Context Window** と戦っていることがわかります。
 
@@ -465,7 +465,7 @@ echo "✅ Hook configuration is valid"  # <- この行だけが context に入�
 | **RAG** | Agent/MCP/Spec が多すぎて収まらない | **検索** (Retrieval) |
 | **Skills** | SOP が長すぎる + 実行時コード品質が制御不能 | **遅延読み込み** (Lazy Loading) |
 
-# 9. 実践：これらを構築する方法 (How to Build)
+## 9. 実践：これらを構築する方法 (How to Build)
 
 多くの理論を語りましたが、どのように書くのでしょうか？
 
@@ -658,7 +658,7 @@ my-plugin/
 
 **Skill は「思考回路」を実行時に動的にプラグインできるモジュールとしてカプセル化したものです。**
 
-# 結語：すべては Context 管理
+## 結語：すべては Context 管理
 
 全文を振り返ると、これらすべての概念が同じ問題を解決していることがわかります：**Context Window は有限である**。
 
