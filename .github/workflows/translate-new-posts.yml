@@ -1,0 +1,123 @@
+name: Translate New Tech Posts
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'content/posts/**/*.md'
+      - 'content/posts/**/*.mdx'
+  workflow_dispatch:
+    inputs:
+      base_sha:
+        description: Optional base SHA to diff against
+        required: false
+        type: string
+      head_sha:
+        description: Optional head SHA to diff against
+        required: false
+        type: string
+      dry_run:
+        description: Run detection/classification without writing files
+        required: false
+        default: false
+        type: boolean
+
+permissions:
+  contents: write
+  pull-requests: write
+  models: read
+
+concurrency:
+  group: translate-new-tech-posts
+  cancel-in-progress: false
+
+jobs:
+  translate:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v4
+        with:
+          version: 10
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: 'pnpm'
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: Run translation bot
+        env:
+          ANTHROPIC_API_BASE_URL: ${{ secrets.ANTHROPIC_API_BASE_URL }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          ANTHROPIC_MODEL: ${{ secrets.ANTHROPIC_MODEL }}
+          ANTHROPIC_MODEL_CLASSIFY: ${{ secrets.ANTHROPIC_MODEL_CLASSIFY }}
+          ANTHROPIC_MODEL_TRANSLATE: ${{ secrets.ANTHROPIC_MODEL_TRANSLATE }}
+          ANTHROPIC_MODEL_REVISE: ${{ secrets.ANTHROPIC_MODEL_REVISE }}
+
+          GEMINI_API_BASE_URL: ${{ secrets.GEMINI_API_BASE_URL }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GEMINI_MODEL: ${{ secrets.GEMINI_MODEL }}
+          GEMINI_MODEL_TRANSLATE: ${{ secrets.GEMINI_MODEL_TRANSLATE }}
+          GEMINI_MODEL_REVIEW: ${{ secrets.GEMINI_MODEL_REVIEW }}
+
+          DEFAULT_SOURCE_LANG: ${{ secrets.DEFAULT_SOURCE_LANG }}
+          TRANSLATION_TARGET_MATRIX_JSON: ${{ secrets.TRANSLATION_TARGET_MATRIX_JSON }}
+          CLASSIFICATION_CONFIDENCE_THRESHOLD: ${{ secrets.CLASSIFICATION_CONFIDENCE_THRESHOLD }}
+          VERIFICATION_MIN_SCORE: ${{ secrets.VERIFICATION_MIN_SCORE }}
+          VARIANTS_PER_PROVIDER: ${{ secrets.VARIANTS_PER_PROVIDER }}
+          REVIEW_MAX_REVISIONS: ${{ secrets.REVIEW_MAX_REVISIONS }}
+          TRANSLATION_FAIL_ON_ERROR: ${{ secrets.TRANSLATION_FAIL_ON_ERROR }}
+        run: |
+          BASE_SHA="${{ github.event.inputs.base_sha || github.event.before }}"
+          HEAD_SHA="${{ github.event.inputs.head_sha || github.sha }}"
+          DRY_RUN="${{ github.event.inputs.dry_run || 'false' }}"
+
+          echo "base_sha=$BASE_SHA"
+          echo "head_sha=$HEAD_SHA"
+          echo "dry_run=$DRY_RUN"
+
+          node scripts/translation/run.mjs \
+            --base "$BASE_SHA" \
+            --head "$HEAD_SHA" \
+            --dry-run "$DRY_RUN"
+
+      - name: Detect generated changes
+        id: changes
+        run: |
+          if [[ -n "$(git status --porcelain content/posts)" ]]; then
+            echo "has_changes=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "has_changes=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Create pull request for translations
+        if: steps.changes.outputs.has_changes == 'true' && (github.event_name != 'workflow_dispatch' || github.event.inputs.dry_run != 'true')
+        uses: peter-evans/create-pull-request@v7
+        with:
+          branch: codex/translate-${{ github.run_id }}
+          delete-branch: true
+          commit-message: "chore(translation): add automated translations for new tech posts"
+          title: "chore(translation): add automated translations for new tech posts"
+          body: |
+            This PR was created automatically by the translation workflow.
+
+            Details:
+            - Trigger SHA: `${{ github.sha }}`
+            - Includes classification, translation and verification steps.
+          labels: |
+            translation
+            automated
+
+      - name: No translation changes
+        if: steps.changes.outputs.has_changes != 'true'
+        run: echo "No translation changes were generated."
