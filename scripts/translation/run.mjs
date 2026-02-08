@@ -34,6 +34,8 @@ async function main() {
     verificationMinScore: clampNumber(Number(getEnv('VERIFICATION_MIN_SCORE') || '80'), 0, 100),
     variantsPerProvider: clampInt(Number(getEnv('VARIANTS_PER_PROVIDER') || '2'), 1, 4),
     reviewMaxRevisions: clampInt(Number(getEnv('REVIEW_MAX_REVISIONS') || '1'), 0, 3),
+    updateExistingTranslations: !isExplicitFalse(getEnv('UPDATE_EXISTING_TRANSLATIONS')),
+    overwriteManualTranslations: toBoolean(getEnv('OVERWRITE_MANUAL_TRANSLATIONS')) || false,
     failOnError: toBoolean(getEnv('TRANSLATION_FAIL_ON_ERROR')) || false,
   }
 
@@ -75,11 +77,11 @@ async function main() {
 
   const headSha = resolveHeadSha(args)
   const baseSha = resolveBaseSha(args, headSha)
-  const candidates = getAddedSourcePosts(baseSha, headSha)
+  const candidates = getChangedSourcePosts(baseSha, headSha)
 
   console.log(`[translation-bot] dryRun=${config.dryRun}, base=${baseSha || 'N/A'}, head=${headSha}`)
   console.log(`[translation-bot] models: classify=${modelConfig.anthropic.classifyModel}, anth_translate=${modelConfig.anthropic.translateModel}, gem_translate=${modelConfig.gemini.translateModel}, review=${modelConfig.gemini.reviewModel}`)
-  console.log(`[translation-bot] found ${candidates.length} candidate new post(s)`)
+  console.log(`[translation-bot] found ${candidates.length} candidate source post(s)`)
 
   if (candidates.length === 0)
     process.exit(0)
@@ -154,9 +156,27 @@ async function main() {
             summary.skipped.push({ file: relPath, reason: `unsupported extension ${extname(relPath)}` })
             continue
           }
+
+          let action = 'create'
           if (existsSync(targetPath)) {
-            summary.skipped.push({ file: relPath, reason: `target exists: ${targetPath}` })
-            continue
+            if (!config.updateExistingTranslations) {
+              summary.skipped.push({ file: relPath, reason: `target exists and updates are disabled: ${targetPath}` })
+              continue
+            }
+
+            const targetRaw = readFileSync(targetPath, 'utf8')
+            const { frontmatter: targetFrontmatter } = splitFrontmatter(targetRaw)
+            const targetMeta = readMetadata(targetFrontmatter)
+            const isManagedTranslation = targetMeta.translationGenerated === true
+
+            if (!isManagedTranslation && !config.overwriteManualTranslations) {
+              summary.skipped.push({
+                file: relPath,
+                reason: `target exists but is not managed translation (set OVERWRITE_MANUAL_TRANSLATIONS=true to override): ${targetPath}`,
+              })
+              continue
+            }
+            action = 'update'
           }
 
           const styleRefs = getStyleReferences({
@@ -273,6 +293,7 @@ async function main() {
           summary.translated.push({
             source: relPath,
             target: targetPath,
+            action,
             provider: best.candidate.provider,
             score: best.review.score,
           })
@@ -335,13 +356,13 @@ function resolveBaseSha(args, headSha) {
   }
 }
 
-function getAddedSourcePosts(baseSha, headSha) {
+function getChangedSourcePosts(baseSha, headSha) {
   if (!baseSha || !headSha)
     return []
   const output = git([
     'diff',
     '--name-status',
-    '--diff-filter=A',
+    '--diff-filter=AM',
     baseSha,
     headSha,
     '--',
@@ -1225,6 +1246,11 @@ function toBoolean(value) {
   return ['1', 'true', 'yes', 'on'].includes(normalized)
 }
 
+function isExplicitFalse(value) {
+  const normalized = String(value || '').trim().toLowerCase()
+  return ['0', 'false', 'no', 'off'].includes(normalized)
+}
+
 function clampNumber(value, min, max) {
   if (!Number.isFinite(value))
     return min
@@ -1255,7 +1281,7 @@ function ensureTrailingNewline(text) {
 
 function printSummary(summary) {
   for (const item of summary.translated) {
-    console.log(`[translation-bot] translated: ${item.source} -> ${item.target} (provider=${item.provider}, score=${item.score})`)
+    console.log(`[translation-bot] translated: ${item.source} -> ${item.target} (action=${item.action}, provider=${item.provider}, score=${item.score})`)
   }
   for (const item of summary.skipped) {
     console.log(`[translation-bot] skipped: ${item.file} (${item.reason})`)

@@ -4,7 +4,7 @@ This folder contains the translation pipeline used by `.github/workflows/transla
 
 ## What it does
 
-1. Detects newly added files in `content/posts`.
+1. Detects changed source files in `content/posts` (new or modified).
 2. Classifies each new post into:
    - `tech_share`
    - `personal_note`
@@ -56,6 +56,8 @@ Other behavior secrets:
 - `VARIANTS_PER_PROVIDER` (default `2`, total candidates = `2 * providers`)
 - `REVIEW_MAX_REVISIONS` (default `1`)
 - `TRANSLATION_FAIL_ON_ERROR` (default `false`)
+- `UPDATE_EXISTING_TRANSLATIONS` (default `true`)
+- `OVERWRITE_MANUAL_TRANSLATIONS` (default `false`, only overwrite files with `translation_generated: true` unless enabled)
 
 Review and rollback behavior:
 

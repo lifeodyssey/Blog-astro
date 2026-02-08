@@ -76,6 +76,8 @@ jobs:
           VERIFICATION_MIN_SCORE: ${{ secrets.VERIFICATION_MIN_SCORE }}
           VARIANTS_PER_PROVIDER: ${{ secrets.VARIANTS_PER_PROVIDER }}
           REVIEW_MAX_REVISIONS: ${{ secrets.REVIEW_MAX_REVISIONS }}
+          UPDATE_EXISTING_TRANSLATIONS: ${{ secrets.UPDATE_EXISTING_TRANSLATIONS }}
+          OVERWRITE_MANUAL_TRANSLATIONS: ${{ secrets.OVERWRITE_MANUAL_TRANSLATIONS }}
           TRANSLATION_FAIL_ON_ERROR: ${{ secrets.TRANSLATION_FAIL_ON_ERROR }}
         run: |
           BASE_SHA="${{ github.event.inputs.base_sha || github.event.before }}"
