@@ -14,7 +14,7 @@ Please feel free to contact me: zhenjiazhou0127@outlook.com
 
 I use Google Analytics to better understand my visitors. The data collection is based on Google's standard practices. Thank you for your understanding.
 
-I'm very happy to receive any type of message.
+I'm very happy to receive any type of message. Please feel free to reach out.
 
 # The End
 
