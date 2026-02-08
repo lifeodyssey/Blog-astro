@@ -34,18 +34,13 @@ Anthropic secrets:
 
 - `ANTHROPIC_API_BASE_URL` (optional; default official endpoint)
 - `ANTHROPIC_API_KEY` (required)
-- `ANTHROPIC_MODEL` (optional global default)
-- `ANTHROPIC_MODEL_CLASSIFY` (optional)
-- `ANTHROPIC_MODEL_TRANSLATE` (optional)
-- `ANTHROPIC_MODEL_REVISE` (optional)
+- `ANTHROPIC_MODEL` (used for classify/translate/revise)
 
 Gemini secrets:
 
 - `GEMINI_API_BASE_URL` (optional; supports custom gateway URL)
 - `GEMINI_API_KEY` (required)
-- `GEMINI_MODEL` (optional global default)
-- `GEMINI_MODEL_TRANSLATE` (optional)
-- `GEMINI_MODEL_REVIEW` (optional)
+- `GEMINI_MODEL` (used for candidate generation and review)
 
 Other behavior secrets:
 

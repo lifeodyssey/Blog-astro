@@ -43,15 +43,12 @@ async function main() {
     anthropic: {
       apiBaseUrl: getEnv('ANTHROPIC_API_BASE_URL') || 'https://api.anthropic.com/v1/messages',
       apiKey: getEnv('ANTHROPIC_API_KEY'),
-      classifyModel: getEnv('ANTHROPIC_MODEL_CLASSIFY') || getEnv('ANTHROPIC_MODEL') || 'claude-3-5-sonnet-latest',
-      translateModel: getEnv('ANTHROPIC_MODEL_TRANSLATE') || getEnv('ANTHROPIC_MODEL') || 'claude-3-5-sonnet-latest',
-      reviseModel: getEnv('ANTHROPIC_MODEL_REVISE') || getEnv('ANTHROPIC_MODEL_TRANSLATE') || getEnv('ANTHROPIC_MODEL') || 'claude-3-5-sonnet-latest',
+      model: getEnv('ANTHROPIC_MODEL') || 'claude-3-5-sonnet-latest',
     },
     gemini: {
       apiBaseUrl: getEnv('GEMINI_API_BASE_URL'),
       apiKey: getEnv('GEMINI_API_KEY'),
-      translateModel: getEnv('GEMINI_MODEL_TRANSLATE') || getEnv('GEMINI_MODEL') || 'gemini-2.0-flash',
-      reviewModel: getEnv('GEMINI_MODEL_REVIEW') || getEnv('GEMINI_MODEL') || 'gemini-2.0-flash',
+      model: getEnv('GEMINI_MODEL') || 'gemini-2.0-flash',
     },
   }
 
@@ -80,7 +77,7 @@ async function main() {
   const candidates = getChangedSourcePosts(baseSha, headSha)
 
   console.log(`[translation-bot] dryRun=${config.dryRun}, base=${baseSha || 'N/A'}, head=${headSha}`)
-  console.log(`[translation-bot] models: classify=${modelConfig.anthropic.classifyModel}, anth_translate=${modelConfig.anthropic.translateModel}, gem_translate=${modelConfig.gemini.translateModel}, review=${modelConfig.gemini.reviewModel}`)
+  console.log(`[translation-bot] models: anthropic=${modelConfig.anthropic.model}, gemini=${modelConfig.gemini.model}`)
   console.log(`[translation-bot] found ${candidates.length} candidate source post(s)`)
 
   if (candidates.length === 0)
@@ -132,7 +129,7 @@ async function main() {
         body,
         meta,
         client: anthropicClient,
-        model: modelConfig.anthropic.classifyModel,
+        model: modelConfig.anthropic.model,
       })
 
       const override = readTranslationOverride(meta.translation)
@@ -196,9 +193,9 @@ async function main() {
             variantsPerProvider: config.variantsPerProvider,
             translatePrompt,
             anthropicClient,
-            anthropicModel: modelConfig.anthropic.translateModel,
+            anthropicModel: modelConfig.anthropic.model,
             geminiClient,
-            geminiModel: modelConfig.gemini.translateModel,
+            geminiModel: modelConfig.gemini.model,
           })
 
           if (candidateSet.length === 0) {
@@ -216,7 +213,7 @@ async function main() {
             candidates: candidateSet,
             styleRefs,
             geminiClient,
-            geminiModel: modelConfig.gemini.reviewModel,
+            geminiModel: modelConfig.gemini.model,
             minScore: config.verificationMinScore,
           })
 
@@ -236,7 +233,7 @@ async function main() {
               reviewFeedback: best.review,
               styleRefs,
               client: anthropicClient,
-              model: modelConfig.anthropic.reviseModel,
+              model: modelConfig.anthropic.model,
               attempt,
             })
 
@@ -251,7 +248,7 @@ async function main() {
               translatedBody: revised.body,
               styleRefs,
               client: geminiClient,
-              model: modelConfig.gemini.reviewModel,
+              model: modelConfig.gemini.model,
               minScore: config.verificationMinScore,
             })
 
